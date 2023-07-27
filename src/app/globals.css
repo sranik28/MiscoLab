@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  @apply max-w-[1240px] mx-auto px-3
+}
+.active{
+  @apply text-orange-500 
+}
+.btn{
+  @apply bg-secondary hover:bg-[#5e5eef] text-white rounded-md
+}
